@@ -1,0 +1,23 @@
+{
+  "name": "korean-obfuscation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjunghoo/korean-obfuscation.git"
+  },
+  "keywords": [],
+  "author": "Junghoo Park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjunghoo/korean-obfuscation/issues"
+  },
+  "homepage": "https://github.com/jjunghoo/korean-obfuscation#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
