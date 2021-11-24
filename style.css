@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    margin: 10px 0;
+}
+
+.change {
+    width: 230px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9px;
+    border: 1px solid #007bff;
+    background-color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: .15s ease-in-out;
+}
+
+.change:hover {
+    background-color: #0166d3;
+    transition: .15s ease-in-out;
+}
+
+.btnBox {
+    display: flex;
+    width: 230px;
+    color: #fff;
+}
+
+.btnBox_1 {
+    border: 1px solid #17a2b8;
+    background-color: #17a2b8;
+    padding: 7px;
+    margin-right: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btnBox_2 {
+    border: 1px solid #17a2b8;
+    background-color: #17a2b8;
+    padding: 7px;
+    margin-left: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.copy {
+    width: 230px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9px;
+    border: 1px solid #17a2b8;
+    background-color: #17a2b8;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn {
+    transition: .15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #138496;
+    transition: .15s ease-in-out;
+}
